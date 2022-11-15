@@ -1,39 +1,14 @@
 import React from "react";
-import equipe_jose from "./imagens/equipe_jose.jpg";
-import equipe_laise from "./imagens/equipe_laise.jpeg";
-import equipe_roseane from "./imagens/equipe_roseane.jpeg";
-import equipe_thiago from "./imagens/equipe_thiago.jpeg";
-import equipe_fabiana from "./imagens/equipe_fabiana.jpeg";
+import equipe_jose from "../../Imagens/equipe_jose.jpg";
+import equipe_laise from "../../Imagens/equipe_laise.jpeg";
+import equipe_roseane from "../../Imagens/equipe_roseane.jpeg";
+import equipe_thiago from "../../Imagens/equipe_thiago.jpeg";
+import equipe_fabiana from "../../Imagens/equipe_fabiana.jpeg";
+import {Link} from "react-router-dom";
 
 export default function Equipe() {
     return (
-        <div className="container-fluid">
-            <nav className="navbar navbar-expand-lg navbar-light shadow" style="background-color: #ffffff">
-        <div className="container">
-            <a className="navbar-brand" href="../index.html">E-DOAÇÃO</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent"> 
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0" style="color: #333; font-weight: 400;">
-                    <li className="nav-item" style="margin-left: 1rem">
-                        <a className="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li className="nav-item" style="margin-left: 1rem">
-                        <a className="nav-link" href="about.html">Sobre Nós</a>
-                    </li>
-                    <li className="nav-item" style="margin-left: 1rem">
-                        <a className="nav-link" style="color: #699dee" href="team.html">Equipe</a>
-                    </li>
-                </ul>
-                <div>
-                    <a className="btn btn-primary mx-2 rounded-pill" style="width: 100px; background-color: #699dee" href="login.html">Login</a>
-                    <a className="btn btn-primary rounded-pill" style="width: 100px; background-color: #699dee" href="cadastro.html">Cadastro</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <div className="rcd-equipe">
+     <div className="rcd-equipe">
         <div className="container">
             <h2>Conheça nossa equipe!</h2>
             <ul className="d-flex justify-content-center flex-wrap rcd-estatisticas-lista">
@@ -81,7 +56,5 @@ export default function Equipe() {
         </div>
     </div>
 
-
-        </div>
     )     
 }

@@ -4,6 +4,7 @@ import axios from "axios";
 
 export default function AddDoador() {
 
+  // eslint-disable-next-line no-use-before-define
   const navigate = navigate();
 
   const [nome, setNome] = useState('');
