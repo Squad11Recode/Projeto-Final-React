@@ -19,7 +19,7 @@ export default function EditDoador() {
         Email: email
       }).then((result) => {
         alert("Doador atualizado")
-        navigate("/home")
+        navigate("/principal")
       }).catch((erro) => {
         console.log(erro);
       });

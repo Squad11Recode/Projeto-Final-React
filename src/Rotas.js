@@ -21,7 +21,7 @@ export default function Rotas() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Principal />} />
+        <Route path="/" element={<Principal/>}/>
         <Route path="/about" element={<About />} />
         <Route path="/equipe" element={<Equipe />} />
         <Route path="/login" element={<Login />} />

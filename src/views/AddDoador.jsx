@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Navigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 export default function AddDoador() {
 
-  // eslint-disable-next-line no-use-before-define
+
   const navigate = navigate();
 
   const [nome, setNome] = useState('');
@@ -18,7 +18,7 @@ export default function AddDoador() {
       Email: email
     }).then((result) => {
       alert("Doador cadastrado")
-      Navigate("/home")
+      Navigate("/Home")
     }).catch((erro) => {
       console.log(erro);
     })

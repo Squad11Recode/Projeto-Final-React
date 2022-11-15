@@ -3,28 +3,29 @@ import computer from "../../Imagens/computer.png"
 import home from "../../Imagens/home.svg"
 import school from "../../Imagens/school.png"
 import student from "../../Imagens/student.png"
+import {Link}  from "react-router-dom";
 
 
 
 export default function Principal() {
     return (
-       
+    <main>
     <div className="container-fluid">
     <div className="container rcd-home">
             <div id="rcd-home-desktop" className="d-flex align-content-center">
                 <div className="d-flex align-items-start flex-column">
-                    <h1 style="font-size: 2.5rem">Democratizando a tecnologia e o acesso ao ensino superior!</h1>
+                    <h1 >Democratizando a tecnologia e o acesso ao ensino superior!</h1>
                     <p className="mt-3 mb-4">Uma organização sem fins lucrativos lutando para democratizar o acesso a tecnologia e ao ensino superior. Saiba mais sobre nosso projeto clicando abaixo.</p>
-                    <a className="btn btn-primary rounded-pill" style="width: 120px; background-color: #699dee" href="pages/about.html">Saber mais</a>
+                    <Link className="btn btn-primary rounded-pill"  to="pages/about.html">Saber mais</Link>
                 </div>
                 <img src={home} alt="arte com computador e pessoas com acesso a internet" />
             </div>
             <div id="rcd-home-mobile">
                 <img src={home} alt="arte com computador e pessoas com acesso a internet" />
                 <div>
-                    <h1 style="font-size: 2.5rem">Democratizando a tecnologia e o acesso ao ensino superior!</h1>
+                    <h1>Democratizando a tecnologia e o acesso ao ensino superior!</h1>
                     <p className="mt-3 mb-4">Uma organização sem fins lucrativos lutando para democratizar o acesso a tecnologia e ao ensino superior. Saiba mais sobre nosso projeto clicando abaixo.</p>
-                    <a className="btn btn-primary rounded-pill" style="width: 120px; background-color: #699dee" href="pages/about.html">Saber mais</a>
+                    <Link className="btn btn-primary rounded-pill"  to="pages/about.html">Saber mais</Link>
                 </div>
             </div>
         </div><div className="rcd-estatisticas">
@@ -42,7 +43,7 @@ export default function Principal() {
                             <p className="rcd-estatisticas-texto">equipamentos{"\n"}compartilhados</p>
                         </li>
                         <li className="rcd-estatisticas-item">
-                            <img src={student} alt="" />
+                            <img src={student} alt="Desenho de estudante" />
                             <p className="rcd-estatisticas-numero">+200</p>
                             <p className="rcd-estatisticas-texto">jovens estudantes {"\n"} impactados</p>
                         </li>
@@ -50,6 +51,6 @@ export default function Principal() {
                 </div>
             </div>
     </div>       
-
+    </main>
 )
 }         
