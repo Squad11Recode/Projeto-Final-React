@@ -15,18 +15,18 @@ export default function Navbar() {
 
             <ul className="navbar-nav mr-auto">
               <li className="nav-item ">
-                <Link className="nav-link" to="/pacotes">Pacotes</Link>
+                <Link className="nav-link" to="/principal">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/destino">Destino</Link>
+                <Link className="nav-link" to="/about"> Sobre Nós</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/promocoes">Promoções</Link>
+                <Link className="nav-link" to="/equipe"> Equipe</Link>
               </li>
             </ul>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/faleconosco">Fale conosco</Link>
+                <Link className="nav-link" to="/login">Login</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/cadastro">Cadastro</Link>
