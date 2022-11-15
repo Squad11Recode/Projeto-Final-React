@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-light text-center text-white">
         <div className="container p-4 pb-0">
             <div className="text-center p-3"  style={{background: "rgba(0, 0, 0, 0.2)"}}>
-                © 2022 Copyright:
+                © 2022 Copyright All Rights Reserved:
                 <Link className="text-white" to="/"> E-Doação </Link>
             </div>
         </div>
