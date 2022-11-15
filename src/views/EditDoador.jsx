@@ -43,7 +43,7 @@ export default function EditDoador() {
           <div class="container">
             <div class="form-group">
               <label for="exampleInputEmail1">Nome</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              <input type="text" class="form-control" id="exampleInputName1" 
                 placeholder="Seu Nome" value={nome} onChange={(e) => setNome(e.target.value)} />
 
             </div>

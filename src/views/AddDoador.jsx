@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import axios from "axios";
 
 export default function AddDoador() {
@@ -32,8 +32,8 @@ export default function AddDoador() {
           <form>
             <div class="container">
               <div class="form-group">
-                <label for="exampleInputEmail1">Nome</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <label for="exampleInputName1">Nome</label>
+                <input type="text" class="form-control" id="exampleInputName1"
                   placeholder="Seu Nome" value={nome} onChange={(e) => setNome(e.target.value)} />
 
               </div>
